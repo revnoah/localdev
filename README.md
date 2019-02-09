@@ -2,11 +2,12 @@
 
 ## A basic index listing
 
-**LocalDev** a simple php page that lists folders. You can click on the link to view the page.
+**LocalDev** a simple php page that lists folders. You can click on the link to view the page and 
+customize the background image.
 
 ## Setup
 
-Setup requires composer. [Composer](https://getcomposer.org/)
+Setup requires [composer](https://getcomposer.org/).
 
 1. Clone the project inside your www or public_html folder.
 2. Open a terminal and enter the localdev folder `cd localdev`
@@ -23,9 +24,9 @@ maintain this project. Also, please be aware that contributors are expected to a
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) and use the [PULL_REQUEST_TEMPLATE.md](PULL_REQUEST_TEMPLATE.md) 
 when submitting code.
 
-## About This Plugin
+## About This Project
 
-This page was created by Noah J. Stewart.
+This project was created by Noah J. Stewart to use on his local development server.
 
 ## License
 
