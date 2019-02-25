@@ -19,6 +19,9 @@
 		.clearfix {
 			clear: both;
 		}
+		.text-center {
+			text-align: center;
+		}
 		.item a {
 			display: block;
 			padding: 10px 8px;
@@ -74,6 +77,7 @@
 ?>
 		<div class="clearfix"></div>
 		</div>
+		<p class="text-center"><a href="?action=info">phpinfo</a></p>
 	</div>
 </body>
 </html>

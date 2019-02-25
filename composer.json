@@ -6,7 +6,7 @@
     "require": {},
     "scripts": {
         "copy": [
-            "cat config.php page.php > index-all.php",
+            "cat config.php actions.php page.php > index-all.php",
             "cp index-all.php ../index.php",
             "rm index-all.php"
         ]
