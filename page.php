@@ -56,6 +56,8 @@
 <?php
 	//output folder links
 	$i = 0;
+
+	//output folders
 	foreach(glob('*', GLOB_ONLYDIR) as $dir) {
 		//get directory name
 		$dirname = basename($dir);
@@ -72,6 +74,22 @@
 		echo '<a href="' . $dirname . '">' . $dirname . '</a>';
 		echo '</div>';
 		
+		$i++;
+	}
+
+	//output links
+	foreach($links as $link) {
+		//column
+		$item_class = 'col-' . floor(12 / $col_max);
+		if ($i % $col_max === 0) {
+			$item_class .= ' col-clear';
+			$i = 0;
+		}
+
+		echo '<div class="item col ' . $item_class . '">';
+		echo '<a href="' . $link['url'] . '">' . $link['name'] . '</a>';
+		echo '</div>';
+
 		$i++;
 	}
 ?>
